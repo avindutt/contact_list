@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    /* text-align: center; */
+}
+
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: rgb(210, 171, 99);
+}
+
+p{
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+ul{
+    list-style: none;
+}
+
+.details{
+    margin-bottom: 2px;
+    border-radius: 0.5rem;
+    width: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+    color: brown;
+}
+
+form{
+    /* border: 2px solid black; */
+    width: 34rem;
+    position: absolute;
+    left: 2.8rem;
+}
+
+form input{
+    margin-right: 15px;
+    border: none;
+}
+
+button{
+    background-color: rgb(151, 114, 30);
+    border: none;
+    color: whitesmoke;
+}
